@@ -1,0 +1,83 @@
+<!-- Page content -->
+<main>
+    <div class="grid-container">
+      <!-- Course Overview -->
+      <div class="overview">
+        <div>
+          <div class="overview-header">
+            <h3>Course Overview</h3>
+          </div>
+          <div class="overview-content">
+        <?php
+            // Fetch data from the database using PHP and MySQL
+            $totalLessons = 360;
+            $totalProjects = 60;
+            $level = "All Level";
+  
+            // Display the retrieved data in the HTML
+            echo "<p><a href=\"#viewdetail\">View detail</a></p>";
+            echo "<div class=\"total\">";
+            echo "<div><h3>$totalLessons Lessons</h3></div>";
+            echo "<div><h3>$totalProjects Projects</h3></div>";
+            echo "<div><h3>$level</h3></div>";
+            echo "</div>";
+            echo "<ul>";
+            echo "<li>HTML <span class=\"checkmark badge right\">L</span></li>";
+            echo "<li>CSS <span class=\"checkmark badge right\">L</span></li>";
+            echo "<li>JavaScript <span class=\"badge right\"></span></li>";
+            echo "<li>Projects <span class=\"checkmark badge right\">L</span>";
+            echo "</ul>";
+            ?>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Comprehension Progress -->
+      <div class="progress">
+        <div>
+          <div class="progress-header">
+            <h3>Comprehension Progress</h3>
+          </div>
+  
+          <div class="progress-content">
+            <?php
+            // Fetch and display progress data from the database
+            $htmlProgress = "100%";
+            $cssProgress = "90%";
+            $jsProgress = "50%";
+            $projectsProgress = "60%";
+  
+            echo "<p>​​HTML</p>";
+            echo "<div class=\"bar\">";
+            echo "<div class=\"progress-bar html\">$htmlProgress</div>";
+            echo "</div>";
+  
+            echo "<p>CSS</p>";
+            echo "<div class=\"bar\">";
+            echo "<div class=\"progress-bar css\">$cssProgress</div>";
+            echo "</div>";
+  
+            echo "<p>JavaScript</p>";
+            echo "<div class=\"bar\">";
+            echo "<div class=\"progress-bar js\">$jsProgress</div>";
+            echo "</div>";
+  
+            echo "<p>Projects</p>";
+            echo "<div class=\"bar\">";
+            echo "<div class=\"progress-bar projects\">$projectsProgress</div>";
+            echo "</div>";
+            ?>
+          </div>
+        </div>
+      </div>
+  
+      <!-- Rest of the dashboard content -->
+      <!-- ... -->
+    </div>
+  
+    <footer>
+      <div>EducationExpress Dashboard UI</div>
+    </footer>
+  
+  </main>
+  

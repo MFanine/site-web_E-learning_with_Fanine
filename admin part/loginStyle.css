@@ -1,0 +1,138 @@
+* {
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+body {
+	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url("images/bleau.jpg");
+	background-size: cover;
+	background-attachment: fixed;
+	display: flex;
+	justify-content: center;
+}
+.logo {
+	display: flex;
+	justify-content: center;
+}
+.logo img {
+	width: 100px;
+}
+.form-box
+{
+	width: 380px;
+	height: 500px;
+	position: relative;
+	margin: 6% auto;
+	background: #fff8;
+	padding: 5px;
+	border-radius: 5px;
+	overflow: hidden;
+	box-shadow: 0px 0px 100px rgba(0,0,0,0.4);
+}
+
+
+
+.log{
+	width: 80px;
+	margin: 45px auto;
+	padding-top: -10px;
+	position: relative;
+	font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+	
+}
+
+.input-group
+{
+	top: 180px;
+	position: absolute;
+	width: 280px;
+	transition: .5s;
+	font-size: 13px;
+	color: #010101;
+}
+.inp {
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	justify-content: center;
+}
+.inp img{
+	width: 20px;
+	padding-right: 10px;
+}
+.input-field
+{
+	width: 100%;
+	padding: 10px 0;
+	margin: 5px 0;
+	border-left: 0;
+	border-right: 0;
+	border-top: 0;
+	border-bottom: 1px solid rgba(0,0,0,0.4);
+	outline: none;
+	background: transparent;
+	color: rgba(0,0,0);
+}
+::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+	color: rgba(0,0,0,0.7);
+	/*opacity: 1;  Firefox */
+}
+
+.submit-btn
+{
+	width: 85%;
+	padding: 10px 30px;
+	cursor: pointer;
+	display: block;
+	margin: auto;
+	background: linear-gradient(to right, #375bfa, #1c4bf8);
+	color: #fff;
+	border: 0;
+	outline: none;
+	border-radius: 30px;
+}
+
+
+.check-box
+{
+	cursor: pointer;
+	margin: 30px 10px 30px 0;
+}
+
+span
+{
+	color: rgba(0,0,0,0.8);
+	font-size: 12px;
+}
+
+#login
+{
+	left: 50px;
+}
+
+
+
+
+.connect {
+	display: flex;
+	margin: 10px;
+	padding: 0px 30px;
+	align-items: center;
+	text-align: center;
+	justify-content: center;
+	border: 1px solid lightgray;
+	cursor: pointer;
+	outline: none;
+	/*border-radius: 10px;*/
+	background: #fff3;
+}
+.connect:hover {
+	background: #fff8;
+}
+.connect img {
+	padding: 5px;
+	width: 25px;
+}
+.connect span {
+	padding: 10px;
+	font-size: 15px;
+}
